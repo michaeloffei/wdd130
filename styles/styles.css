@@ -35,8 +35,6 @@ nav a {
     color: white;
     padding: 10px;
     display: block;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
 }
 
 
@@ -46,6 +44,11 @@ img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+aside img {
+    width: 200px; 
+    height: auto
 }
 
 p { 
