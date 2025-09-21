@@ -150,3 +150,6 @@ footer .socialmedia img {
   width: 30px;
   height: 30px;
 }
+.socialmedia a {
+  text-decoration: none;
+}
