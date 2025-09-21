@@ -1,20 +1,10 @@
 :root {
   --primary-color: #055a05;
-  --secondary-color:#f4a261;
+  --secondary-color: #f4a261;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
-  --heading-font: "Times New Roman", "Georgia", serif;
-  --body-font: Arial, Helvetica, Sans-serif;
-}
-
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: var(--primary-color);
-  color: var(--accent2-color);
+  --heading-font: "Times New Roman", Georgia, serif;
+  --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -26,6 +16,7 @@ header {
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+  line-height: 1.6;
 }
 
 header, main, footer {
@@ -54,6 +45,19 @@ nav, p, section, article {
   padding: 8px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+}
+
+header img {
+  height: auto;
+}
+
 .hero {
   position: relative;
 }
@@ -67,10 +71,6 @@ nav, p, section, article {
 .hero article img {
   float: right;
   width: 125px;
-}
-
-.socialmedia a {
-  text-decoration: none;
 }
 
 footer {
@@ -91,10 +91,14 @@ footer .socialmedia {
   margin-top: 0.5rem;
 }
 
+footer .socialmedia a {
+  text-decoration: none;
+}
+
 footer .socialmedia img {
   width: 30px;
   height: 30px;
-  transition: transform 0.2s;
+  transition: transform 0.2s ease;
 }
 
 footer .socialmedia img:hover {
