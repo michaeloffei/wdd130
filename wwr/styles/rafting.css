@@ -103,6 +103,14 @@ h1 {
   border: 3px solid #fff;
 }
 
+.hero-overlay img {
+  float: right;    
+  width: 180px;     
+  margin-left: 1rem;
+  border-radius: 8px;
+  border: 3px solid #fff;
+}
+
 .hero-overlay .overlay-img {
   flex: 0 0 200px;
   max-width: 200px;
