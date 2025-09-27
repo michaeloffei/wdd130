@@ -59,6 +59,7 @@ header nav ul li a {
   height: auto;
   display: block;
 }
+
 h1 {
   position: absolute;
   top: 20px;
@@ -126,6 +127,31 @@ h1 {
   text-align: center;
 }
 
+section:nth-of-type(2) {
+  display: flex;
+  justify-content: space;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+section:nth-of-type(2) figure {
+  flex: 1 1 18%;
+  text-align: center;
+}
+
+section:nth-last-of-type(2) img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+section:nth-of-type(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+}
 .content img {
  display: block;
   margin: 1rem auto;
@@ -146,7 +172,9 @@ h1 {
 /* Footer */
 footer {
   background: var(--light-color);
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   border-top: 2px solid var(--dark-color);
 }
