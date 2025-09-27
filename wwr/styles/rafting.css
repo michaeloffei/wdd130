@@ -22,8 +22,9 @@ body {
 
 /* Header */
 header {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
   padding: 1rem;
 }
 
@@ -34,6 +35,8 @@ header .logo {
 
 header nav ul {
   list-style: none;
+  display: flex;
+  gap: 1rem;
 }
 
 header nav ul li {
@@ -127,31 +130,24 @@ h1 {
   text-align: center;
 }
 
-section:nth-of-type(2) {
+.adventures {
   display: flex;
-  justify-content: space;
+  justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
   padding: 2rem;
 }
 
-section:nth-of-type(2) figure {
+.adventures figure {
   flex: 1 1 18%;
   text-align: center;
 }
 
-section:nth-last-of-type(2) img {
+.adventures img {
   width: 100%;
   border-radius: 8px;
 }
 
-section:nth-of-type(1) {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: center;
-  padding: 2rem;
-}
 .content img {
  display: block;
   margin: 1rem auto;
@@ -185,7 +181,7 @@ footer p {
 
 footer .socialmedia {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 1rem;
 }
 
