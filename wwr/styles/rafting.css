@@ -21,13 +21,14 @@ body {
   line-height: 1.6;
 }
 
-/* ===== HEADER ===== */
 header {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  justify-content: center; 
   align-items: center;
+  gap: 1.5rem; 
   padding: 1rem;
 }
+
 
 header .logo {
   width: 100px;
@@ -46,7 +47,7 @@ header nav ul li a {
   font-weight: bold;
 }
 
-/* ===== HERO SECTION ===== */
+/*  HERO SECTION  */
 .hero {
   position: relative;
   width: 100%;
@@ -98,7 +99,7 @@ header nav ul li a {
   border: 3px solid #fff;
 }
 
-/* ===== CONTENT SECTIONS ===== */
+/*  CONTENT SECTIONS  */
 .content,
 .contact-info,
 .contact-form,
@@ -148,9 +149,9 @@ header nav ul li a {
   border-radius: 8px;
 }
 
-/* ===== CONTACT PAGE ===== */
+/*  CONTACT PAGE  */
 
-/* Shared layout already defined under .content, .contact-info, etc. */
+
 .map-container iframe {
   width: 100%;
   height: 300px;
@@ -178,7 +179,7 @@ form textarea {
   font-family: var(--body-font);
 }
 
-/* Buttons (Reusable) */
+/* Buttons  */
 .btn,
 button[type="submit"] {
   background-color: var(--secondary-color);
@@ -216,7 +217,7 @@ button[type="submit"]:hover {
   margin-bottom: 0.5rem;
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 footer {
   background: var(--light-color);
   display: flex;
