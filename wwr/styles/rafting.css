@@ -149,6 +149,148 @@ header nav ul li a {
   border-radius: 8px;
 }
 
+/* HOME PAGE CONTENT GRID */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.home-grid article {
+  background: var(--light-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.home-grid img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* NEWSLETTER FORM (Home) */
+.newsletter {
+  background: var(--secondary-color);
+  color: var(--light-color);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 1rem auto;
+  gap: 0.5rem;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  background-color: var(--accent-color);
+  color: var(--dark-color);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #ffb703;
+}
+
+/* TRIPS PAGE STYLES */
+.trips {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.trip-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.trip-card {
+  background: var(--light-color);
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.trip-card h3 {
+  background: var(--dark-color);
+  color: var(--light-color);
+  padding: 0.5rem;
+}
+
+.trip-card p {
+  padding: 0.8rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.trips-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.trips-table th,
+.trips-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.trips-table th {
+  background: var(--secondary-color);
+  color: var(--light-color);
+}
+
+.trips-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+
+/* Call to Action on Trips Page */
+.call-to-action {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.call-to-action a {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: var(--light-color);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.call-to-action a:hover {
+  background: var(--accent-color);
+  color: var(--dark-color);
+}
+
 /*  CONTACT PAGE  */
 
 
