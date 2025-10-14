@@ -251,6 +251,20 @@ header nav ul li a {
   align-items: center;
 }
 
+.newsletter h2 {
+  font-family: var(--heading-font);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.newsletter > p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding-right: 2rem;
+}
+
 .newsletter form {
   display: flex;
   flex-direction: column;
