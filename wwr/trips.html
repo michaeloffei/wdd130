@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
-
 <body>
-
     <header>
         <img src="images/newlogo.jpg" alt="Emerald Water Rafting Adventures Logo" width="120" class="logo">
         <nav>
@@ -27,130 +25,106 @@
     </header>
 
     <main>
-        <section class="cta">
+        <section class="cta" id="cta">
             <h1>Adventure Awaits!</h1>
             <p>Join Emerald Water Rafting Adventures for the ride of your life. Whether you’re a thrill seeker or nature
-                lover,
-                we have the perfect trip for you!</p>
+                lover, we have the perfect trip for you!</p>
             <a href="contact.html" class="btn">Contact Us to Book Your Trip</a>
         </section>
 
-        <!-- Trip Descriptions -->
-        <section class="trip-details">
-            <h2>Our Featured Rafting Trips</h2>
-            <div class="trip-grid">
-                <article class="trip">
-                    <img src="images/trip1.jpg" alt="Whitewater Rapids Adventure">
-                    <h3>Whitewater Rapids Adventure</h3>
-                    <p>Experience the thrill of Class IV rapids on the Bosomtwe River. This 3-hour guided tour offers
-                        heart-pounding
-                        excitement, expert safety instruction, and breathtaking views. Perfect for adrenaline junkies!
-                    </p>
-                    <p><strong>Duration:</strong> 3 hours<br>
-                        <strong>Price:</strong> GHS 450 per person
-                    </p>
-                </article>
-                <article class="trip">
-                    <img src="images/trip2.jpg" alt="Family Float Experience">
-                    <h3>Family Float Experience</h3>
-                    <p>Designed for beginners and families, this peaceful rafting experience lets you float through calm
-                        waters
-                        while enjoying scenic beauty and local wildlife. Suitable for all ages, with safety gear
-                        provided.</p>
-                    <p><strong>Duration:</strong> 2 hours<br>
-                        <strong>Price:</strong> GHS 300 per adult | GHS 150 per child
-                    </p>
-                </article>
+        <section class="trip-container">
+            <div class="trip-content">
+                <section class="trip-details" id="trip-details">
+                    <h2>Our Featured Rafting Trips</h2>
+                    <div class="trip-grid">
+                        <article class="trip">
+                            <img src="images/trip1.jpg" alt="Whitewater Rapids Adventure" loading="lazy">
+                            <h3>Whitewater Rapids Adventure</h3>
+                            <p>Experience the thrill of Class IV rapids on the Bosomtwe River. This 3-hour guided tour
+                                offers heart-pounding excitement, expert safety instruction, and breathtaking views.
+                                Perfect for adrenaline junkies!</p>
+                            <p><strong>Duration:</strong> 3 hours<br><strong>Price:</strong> GHS 450 per person</p>
+                        </article>
+                        <article class="trip">
+                            <img src="images/trip2.jpg" alt="Family Float Experience" loading="lazy">
+                            <h3>Family Float Experience</h3>
+                            <p>Designed for beginners and families, this peaceful rafting experience lets you float
+                                through calm waters while enjoying scenic beauty and local wildlife. Suitable for all
+                                ages, with safety gear provided.</p>
+                            <p><strong>Duration:</strong> 2 hours<br><strong>Price:</strong> GHS 300 per adult | GHS 150
+                                per child</p>
+                        </article>
+                        <article class="trip">
+                            <img src="images/trip3.jpg" alt="Sunset Raft & Dine" loading="lazy">
+                            <h3>Sunset Raft & Dine</h3>
+                            <p>End your day in serenity with our romantic sunset rafting trip followed by a riverside
+                                dinner. Ideal for couples or groups looking for a relaxed evening adventure.</p>
+                            <p><strong>Duration:</strong> 4 hours<br><strong>Price:</strong> GHS 600 per person
+                                (includes dinner)</p>
+                        </article>
+                    </div>
+                </section>
 
-                <article class="trip">
-                    <img src="images/trip3.jpg" alt="Sunset Raft and Dine">
-                    <h3>Sunset Raft & Dine</h3>
-                    <p>End your day in serenity with our romantic sunset rafting trip followed by a riverside dinner.
-                        Ideal for
-                        couples or groups looking for a relaxed evening adventure.</p>
-                    <p><strong>Duration:</strong> 4 hours<br>
-                        <strong>Price:</strong> GHS 600 per person (includes dinner)
-                    </p>
-                </article>
+                <section class="trip-table" id="trip-table">
+                    <h2>All Available Trips</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Trip Name</th>
+                                <th>Difficulty</th>
+                                <th>Duration</th>
+                                <th>Price (GHS)</th>
+                                <th>Availability</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Whitewater Rapids Adventure</td>
+                                <td>Advanced</td>
+                                <td>3 Hours</td>
+                                <td>450</td>
+                                <td>Daily</td>
+                            </tr>
+                            <tr>
+                                <td>Family Float Experience</td>
+                                <td>Beginner</td>
+                                <td>2 Hours</td>
+                                <td>300 (Adult) / 150 (Child)</td>
+                                <td>Weekends</td>
+                            </tr>
+                            <tr>
+                                <td>Sunset Raft & Dine</td>
+                                <td>Intermediate</td>
+                                <td>4 Hours</td>
+                                <td>600</td>
+                                <td>Fridays & Saturdays</td>
+                            </tr>
+                            <tr>
+                                <td>River Expedition Challenge</td>
+                                <td>Expert</td>
+                                <td>Full Day</td>
+                                <td>850</td>
+                                <td>By Reservation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
             </div>
         </section>
-
-        <!-- Trip Table -->
-        <section class="trip-table">
-            <h2>All Available Trips</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Trip Name</th>
-                        <th>Difficulty</th>
-                        <th>Duration</th>
-                        <th>Price (GHS)</th>
-                        <th>Availability</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Whitewater Rapids Adventure</td>
-                        <td>Advanced</td>
-                        <td>3 Hours</td>
-                        <td>450</td>
-                        <td>Daily</td>
-                    </tr>
-                    <tr>
-                        <td>Family Float Experience</td>
-                        <td>Beginner</td>
-                        <td>2 Hours</td>
-                        <td>300 (Adult) / 150 (Child)</td>
-                        <td>Weekends</td>
-                    </tr>
-                    <tr>
-                        <td>Sunset Raft & Dine</td>
-                        <td>Intermediate</td>
-                        <td>4 Hours</td>
-                        <td>600</td>
-                        <td>Fridays & Saturdays</td>
-                    </tr>
-                    <tr>
-                        <td>River Expedition Challenge</td>
-                        <td>Expert</td>
-                        <td>Full Day</td>
-                        <td>850</td>
-                        <td>By Reservation</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
     </main>
 
-
     <footer>
-        <p>&copy; 2025 Emerald Water Rafting Adventures | Built by MKO </p>
+        <p>&copy; 2025 Emerald Water Rafting Adventures | Built by MKO</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Facebook Icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram Icon">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin.svg" alt="LinkedIn Icon">
-            </a>
-            <a href="https://youtube.com">
-                <img src="images/youtube.svg" alt="Youtube Icon">
-            </a>
-            <a href="https://x.com">
-                <img src="images/x-bw.svg" alt="X(Twitter) Icon">
-            </a>
-            <a href="https://tiktok.com">
-                <img src="images/tictok-bw.svg" alt="Tiktok Icon">
-            </a>
-            <a href="https://snapchat.com">
-                <img src="images/snapchat-square.svg" alt="Snapchat Icon">
-            </a>
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Icon"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+            <a href="https://youtube.com"><img src="images/youtube.svg" alt="Youtube Icon"></a>
+            <a href="https://x.com"><img src="images/x-bw.svg" alt="X(Twitter) Icon"></a>
+            <a href="https://tiktok.com"><img src="images/tictok-bw.svg" alt="Tiktok Icon"></a>
+            <a href="https://snapchat.com"><img src="images/snapchat-square.svg" alt="Snapchat Icon"></a>
         </nav>
     </footer>
-
 </body>
 
 </html>
